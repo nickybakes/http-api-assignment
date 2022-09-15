@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "HTTP API assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickybakes/http-api-assignment.git"
+  },
+  "author": "Nick Baker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickybakes/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/nickybakes/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
